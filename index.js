@@ -26,10 +26,10 @@ for (const moneyIndex in momeyList) {
 }
 
 // Tổng tất cả tiền có vị trí chẵn (0,2,...)
-let sumOld = 0;
+let sumEven = 0;
 for (let i = 0; i < momeyList.length; i++) {
   if (i % 2 === 0) {
-    sumOld += momeyList[i];
+    sumEven += momeyList[i];
   }
 }
 console.log(sumOld);
